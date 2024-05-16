@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Mat_UI_Background_Patterns
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: afd40208947390d4a8a9f65ca1a63fbb, type: 3}
+  m_ShaderKeywords: _GRADUALMODE_LINEAR
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0ad6b1b8ec0b0c2498fdb1336c375e0b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -56,23 +56,52 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Angle: 34
     - _BumpScale: 1
+    - _CenterPosX: 0.539
+    - _CenterPosY: 0.513
+    - _ColorMask: 15
+    - _ColumnCount: 4
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _FlipScale: 4.78
+    - _FullMarbleAngle: 0.61
+    - _GapOffsetX: 0.15
+    - _GapOffsetY: -0.048
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _GradualMode: 0
+    - _MarbleAngle: 1.48
+    - _MarbleMoveDirX: 1
+    - _MarbleMoveDirY: -1
+    - _MarbleMoveVelocity: 6.56
+    - _MarbleRotateVelocity: 6.47
+    - _MarbleScale: 0.95
+    - _MarbleScaleDiff: 0.43
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _RandomInfo: -0.58
+    - _RowCount: 4
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorBegin: {r: 0.19953722, g: 0.4667141, b: 0.7169812, a: 1}
+    - _ColorEnd: {r: 0.6320754, g: 0.15205587, b: 0.5756508, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MarbleColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MarbleMoveDir: {r: 1, g: 1, b: 0, a: 0}
+    - _RandomInfo: {r: 4.02, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
